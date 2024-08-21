@@ -6,7 +6,7 @@ jump-app-argocd:
 
 jump-app-cicd:
   enabled: true
-  namespaceDev: angalleg-jump-app
+  namespaceDev: jump-app
   namespacePre: mock-value-pre
   namespacePro: mock-value-pro
   namespaceGitOps: openshift-gitops
