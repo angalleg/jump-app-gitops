@@ -34,12 +34,12 @@ global:
       versions:
         - v1
       type: nodejs
-      gitRepo: https://github.com/acidonper/jump-app-typescrypt-react.git
+      gitRepo: https://github.com/angalleg/jump-app-typescrypt-react.git
     back-golang:
       build: dockerfile
       versions:
         - v1
-      gitRepo: https://github.com/acidonper/jump-app-golang.git
+      gitRepo: https://github.com/angalleg/jump-app-golang.git
       type: golang
     back-python:
       build: is
@@ -47,7 +47,7 @@ global:
       imagestreamNamespace: openshift
       versions:
         - v1
-      gitRepo: https://github.com/acidonper/jump-app-python.git
+      gitRepo: https://github.com/angalleg/jump-app-python.git
       type: python
     back-springboot:
       build: is
@@ -55,5 +55,5 @@ global:
       imagestreamNamespace: openshift
       versions:
         - v1
-      gitRepo: https://github.com/acidonper/jump-app-java-springboot.git
+      gitRepo: https://github.com/angalleg/jump-app-java-springboot.git
       type: java
